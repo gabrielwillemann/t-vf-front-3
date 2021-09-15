@@ -1,0 +1,30 @@
+{
+  "name": "t-vf-front-3",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev:vue2": "webpack-dev-server --config webpack.config-vue2.js",
+    "build:vue2": "webpack --config webpack.config-old.js",
+    "dev:vue3": "vue-cli-service serve",
+    "build:vue3": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "3.16.4",
+    "vue": "3.2.11",
+    "vue-template-compiler": "2.6.14",
+    "vue2": "npm:vue@^2.6.14"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "7.10.1",
+    "@vue/cli-plugin-babel": "4.5.13",
+    "@vue/cli-service": "4.5.13",
+    "@vue/compiler-sfc": "3.2.11",
+    "babel-plugin-istanbul": "6.0.0",
+    "babel-plugin-module-resolver": "4.0.0",
+    "webpack-cli": "3.3.10",
+    "webpack-manifest-plugin": "^2.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
